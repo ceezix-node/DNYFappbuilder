@@ -1,227 +1,311 @@
-<div align="center">⚡ CEEZIX NODE
+<div align="center">
 
-Autonomous Build Intelligence Platform
+ █████╗  ██████╗  ██████╗
+██╔══██╗ ██╔══██╗ ██╔══██╗
+███████║ ██████╔╝ ██████╔╝
+██╔══██║ ██╔══██╗ ██╔═══╝
+██║  ██║ ██████╔╝ ██║
+╚═╝  ╚═╝ ╚═════╝  ╚═╝
 
-Enterprise-grade build orchestration, deployment automation, signing infrastructure, and device operations for Android, Linux, macOS, CI/CD, and cloud-native environments.
+# CEEZIX NODE
 
-<p>"Version" (https://img.shields.io/badge/version-v2.0.0-7C3AED?style=for-the-badge)
-"Status" (https://img.shields.io/badge/status-production_ready-22C55E?style=for-the-badge)
-"Platform" (https://img.shields.io/badge/platform-android_linux_macos-0F172A?style=for-the-badge)
-"License" (https://img.shields.io/badge/license-MIT-2563EB?style=for-the-badge)
+### Autonomous Build Intelligence Platform
 
-</p><p>"CI" (https://img.shields.io/github/actions/workflow/status/ceezix-node/ceezix-node/build.yml?style=flat-square&label=Build)
-"Release" (https://img.shields.io/github/v/release/ceezix-node/ceezix-node?style=flat-square)
-"Downloads" (https://img.shields.io/github/downloads/ceezix-node/ceezix-node/total?style=flat-square)
-"Issues" (https://img.shields.io/github/issues/ceezix-node/ceezix-node?style=flat-square)
-"Stars" (https://img.shields.io/github/stars/ceezix-node/ceezix-node?style=flat-square)
+<p align="center">
 
-</p>---
+<img src="https://img.shields.io/badge/Release-v2.0.0-7C3AED?style=for-the-badge">
 
-Build Once. Deploy Anywhere. Operate Everywhere.
+<img src="https://img.shields.io/badge/Production-Ready-22C55E?style=for-the-badge">
 
-CEEZIX NODE provides a unified execution layer capable of detecting, building, signing, validating, deploying, monitoring, and managing applications from a single command interface.
+<img src="https://img.shields.io/badge/Android-Termux-0F172A?style=for-the-badge">
 
-Designed for:
+<img src="https://img.shields.io/badge/Linux-Supported-2563EB?style=for-the-badge">
 
-🏢 Enterprise Engineering Teams
-🚀 Startup Product Teams
-📱 Mobile Developers
-☁️ DevOps Engineers
-🔒 Security-Focused Organizations
-🤖 AI-Assisted Development Workflows
+<img src="https://img.shields.io/badge/macOS-Supported-E11D48?style=for-the-badge">
 
-</div>---
+</p>
 
-Executive Overview
+<p align="center">
 
-Modern development pipelines are fragmented.
+<img src="https://img.shields.io/github/actions/workflow/status/ceezix-node/ceezix-node/build.yml?style=flat-square&label=Build">
 
-Developers often juggle:
+<img src="https://img.shields.io/github/actions/workflow/status/ceezix-node/ceezix-node/release.yml?style=flat-square&label=Release">
 
-- Build systems
-- Device management
-- Signing infrastructure
-- Deployment tooling
-- Cloud integration
-- Environment management
-- Release automation
+<img src="https://img.shields.io/github/license/ceezix-node/ceezix-node?style=flat-square">
 
-CEEZIX NODE consolidates these responsibilities into a single operational platform.
+<img src="https://img.shields.io/github/stars/ceezix-node/ceezix-node?style=flat-square">
 
-┌─────────────────────────────────────────────────────────────┐
-│                 CEEZIX NODE CONTROL PLANE                  │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  Source Code                                                │
-│       │                                                     │
-│       ▼                                                     │
-│  Detection Engine                                           │
-│       │                                                     │
-│       ▼                                                     │
-│  Build Orchestrator                                         │
-│       │                                                     │
-│       ▼                                                     │
-│  Security & Signing Layer                                   │
-│       │                                                     │
-│       ▼                                                     │
-│  Device Deployment Grid                                     │
-│       │                                                     │
-│       ▼                                                     │
-│  Cloud Distribution Fabric                                  │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+<img src="https://img.shields.io/github/issues/ceezix-node/ceezix-node?style=flat-square">
+
+</p>
+
+**Enterprise Build Orchestration • Mobile DevOps • Device Intelligence • Cloud Deployment**
+
+*Build • Sign • Install • Deploy • Observe • Scale*
+
+</div>
 
 ---
 
-Core Capabilities
+# Executive Summary
 
-Capability| Included
-Multi-language Build Engine| ✅
-Android Deployment| ✅
-Wireless Device Installation| ✅
-APK Signing Infrastructure| ✅
-CI/CD Automation| ✅
-Cloud Deployments| ✅
-Docker Build Pipelines| ✅
-Environment Management| ✅
-Kubernetes Integration| ✅
-Plugin Runtime| ✅
-Release Management| ✅
-AI Workflow Integration| ✅
+CEEZIX NODE is a production-grade autonomous build orchestration platform engineered for modern software teams operating across mobile, cloud, container, and edge environments.
 
----
+Unlike traditional build tools that focus only on compilation, CEEZIX NODE manages the complete software delivery lifecycle:
 
-Engineering Principles
+- Project Detection
+- Build Automation
+- Artifact Signing
+- Device Deployment
+- Cloud Distribution
+- Runtime Validation
+- Release Management
+- Environment Provisioning
 
-Reliability First
+Designed to operate identically across:
 
-Every operation is designed around predictable execution and deterministic outputs.
-
-Security by Default
-
-Release signing, validation, verification, and deployment safeguards are built directly into the platform.
-
-Mobile-Native Operations
-
-Run the same workflows on:
-
-- Android (Termux)
-- Linux
-- macOS
-- CI/CD Infrastructure
-- Cloud Build Agents
-
-Zero Vendor Lock-In
-
-Deploy to any infrastructure stack.
+| Platform | Status |
+|-----------|----------|
+| Android (Termux) | ✅ First-Class |
+| Linux | ✅ Native |
+| macOS | ✅ Native |
+| CI/CD Runners | ✅ Native |
+| Containers | ✅ Native |
+| Cloud Infrastructure | ✅ Native |
 
 ---
 
-Runtime Status
+# Platform Architecture
 
+```text
+┌───────────────────────────────────────────────────────────┐
+│                     CEEZIX NODE                           │
+├───────────────────────────────────────────────────────────┤
+│                                                           │
+│  Source Discovery Engine                                  │
+│               │                                           │
+│               ▼                                           │
+│  Intelligent Build Orchestrator                           │
+│               │                                           │
+│               ▼                                           │
+│  Security & Signing Framework                             │
+│               │                                           │
+│               ▼                                           │
+│  Device Operations Layer                                  │
+│               │                                           │
+│               ▼                                           │
+│  Deployment Fabric                                        │
+│               │                                           │
+│               ▼                                           │
+│  Monitoring & Notification Engine                         │
+│                                                           │
+└───────────────────────────────────────────────────────────┘
+```
+
+---
+
+# Operational Dashboard
+
+```text
 SYSTEM STATUS ───────────────────────────────────────────────
 
- Build Orchestrator      ████████████████████████  ONLINE
- Security Layer          ████████████████████████  ONLINE
- Device Operations       ████████████████████████  ONLINE
- Deployment Fabric       ████████████████████████  ONLINE
- Plugin Runtime          ████████████████████████  ONLINE
- Environment Manager     ████████████████████████  ONLINE
- CI/CD Integrations      ████████████████████████  ONLINE
+ Build Intelligence        ████████████████████████  ONLINE
+ Device Grid               ████████████████████████  ONLINE
+ Signing Service           ████████████████████████  ONLINE
+ Deploy Fabric             ████████████████████████  ONLINE
+ Notification Engine       ████████████████████████  ONLINE
+ Plugin Runtime            ████████████████████████  ONLINE
 
- HEALTH SCORE                                    100%
- STATUS                                           READY
+ Runtime Health                                    100%
+ Deployment Readiness                              READY
 
 ────────────────────────────────────────────────────────────
+```
 
 ---
 
-Supported Technologies
+# Core Platform Modules
 
-Mobile
+| Module | Description |
+|----------|------------|
+| Build Engine | Multi-target compilation orchestration |
+| Device Intelligence | USB, Wireless ADB, QR deployments |
+| Signing Framework | Automated keystore and release signing |
+| Deployment Fabric | Multi-cloud deployment engine |
+| Environment Manager | Runtime profile management |
+| Plugin Runtime | Extensible platform capabilities |
+| Observability Layer | Logs, metrics, notifications |
+| Security Framework | Validation and integrity controls |
 
-- Android SDK
-- Kotlin
+---
+
+# Engineering Capabilities
+
+## Mobile Development
+
+- Android Native
 - Flutter
 - React Native
+- APK Packaging
+- Automated Signing
+- Wireless Installation
 
-Backend
+## Backend Development
 
 - Node.js
 - Express
 - FastAPI
 - Spring Boot
+- REST APIs
+- Container Services
 
-Frontend
+## Frontend Development
 
 - React
 - Vue
 - Vite
-
-Infrastructure
-
-- Docker
-- Kubernetes
-- GitHub Actions
-- Railway
-- Render
-- Vercel
+- Static Sites
+- Progressive Web Apps
 
 ---
 
-Enterprise Deployment Matrix
+# Enterprise Security Model
 
-Environment| Supported
-Development| ✅
-Staging| ✅
-Production| ✅
-Hybrid Cloud| ✅
-Edge Deployments| ✅
-On-Premise Infrastructure| ✅
+```text
+SECURITY CONTROL PLANE
 
----
-
-Security Framework
-
-Security Layers
-
-✓ APK Signature Verification
 ✓ Release Key Management
-✓ Build Validation
+
+✓ APK Signature Validation
+
+✓ Artifact Verification
+
 ✓ Dependency Inspection
+
+✓ Build Integrity Checks
+
+✓ Deployment Validation
+
 ✓ Runtime Verification
-✓ Artifact Integrity Checks
-✓ Secure Deployment Pipeline
+
+✓ Secure Delivery Pipelines
+```
 
 ---
 
-Performance Characteristics
+# Cloud Deployment Matrix
 
-Metric| Value
-Cold Start| < 1s
-Template Initialization| Seconds
-Multi-Target Build Support| Yes
-Parallel Build Execution| Yes
-Plugin Architecture| Dynamic
-Deployment Targets| Unlimited
-
----
-
-Why Senior Engineers Choose CEEZIX NODE
-
-- Unified workflow architecture
-- Production-focused design
-- Mobile-first operations
-- Enterprise deployment support
-- Extensible runtime
-- Security-conscious tooling
-- Cloud-native integration
-- AI-assisted engineering readiness
+| Provider | Support |
+|-----------|----------|
+| Railway | ✅ |
+| Render | ✅ |
+| Vercel | ✅ |
+| Docker | ✅ |
+| Kubernetes | ✅ |
+| GitHub Pages | ✅ |
 
 ---
 
-License
+# Production Features
+
+| Capability | Included |
+|------------|-----------|
+| Multi-Language Support | ✅ |
+| Multi-Target Builds | ✅ |
+| Parallel Execution | ✅ |
+| Device Automation | ✅ |
+| Wireless Deployment | ✅ |
+| Cloud Deployments | ✅ |
+| Docker Integration | ✅ |
+| Kubernetes Support | ✅ |
+| Plugin Ecosystem | ✅ |
+| CI/CD Integration | ✅ |
+| Release Automation | ✅ |
+
+---
+
+# Performance Profile
+
+```text
+PERFORMANCE CHARACTERISTICS
+
+Project Detection          < 1 Second
+Build Orchestration        Parallel
+Device Discovery           Real-Time
+APK Deployment             Optimized
+Cloud Distribution         Automated
+Plugin Loading             Dynamic
+
+STATUS                     PRODUCTION READY
+```
+
+---
+
+# Engineering Philosophy
+
+CEEZIX NODE follows a simple principle:
+
+> One platform.
+> One command interface.
+> Complete delivery lifecycle.
+
+Engineers should focus on building software.
+
+The platform handles the operational complexity.
+
+---
+
+# Repository Structure
+
+```text
+ceezix-node/
+│
+├── bin/
+├── lib/
+├── scripts/
+├── docker/
+├── plugins/
+├── examples/
+├── tests/
+├── k8s/
+│
+├── setup.sh
+├── install.sh
+└── README.md
+```
+
+---
+
+# Designed For
+
+### Individual Developers
+
+Rapid local development with professional deployment workflows.
+
+### Startups
+
+Accelerate release cycles without building internal platform tooling.
+
+### Enterprises
+
+Standardized deployment processes across teams and environments.
+
+### AI Engineering Workflows
+
+Optimized for autonomous agents, AI-assisted development systems, and modern software factories.
+
+---
+
+# License
 
 MIT License © 2026 CEEZIX NODE
 
-Built for engineers who ship production systems.
+---
+
+<div align="center">
+
+### Built For Engineers Who Ship
+
+**Build • Sign • Deploy • Scale**
+
+</div>
