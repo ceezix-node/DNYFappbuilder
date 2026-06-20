@@ -2,15 +2,15 @@
 <div align="center">
 
 ```
- █████╗ ██████╗ ██████╗
-██╔══██╗██╔══██╗██╔══██╗
-███████║██████╔╝██████╔╝
-██╔══██║██╔══██╗██╔═══╝
+  █████╗ ██████╗ ██████╗
+ ██╔══██╗██╔══██╗██╔══██╗
+ ███████║██████╔╝██████╔╝
+ ██╔══██║██╔══██╗██╔═══╝
 ██║  ██║██████╔╝██║
 ╚═╝  ╚═╝╚═════╝ ╚═╝
 ```
 
-### `DNYFappbuilder v2.2.0`
+### `DNYFappbuilder v1.0.0`
 **Autonomous Multi-Language Build Intelligence**
 
 *Detect → Build → Sign → Install → Deploy — one CLI, every platform, zero friction*
